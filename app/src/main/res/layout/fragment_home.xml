@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20sp"
+    android:orientation="vertical"
+    tools:context=".fragments.HomeFragment">
+
+ <Button
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/btn_sotuvchi"
+     android:textSize="20sp"
+     android:text="@string/sotuvchi"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_xaridor"
+        android:textSize="20sp"
+        android:text="@string/Xaridor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_buyurtma"
+        android:textSize="20sp"
+        android:text="Buyurtma"/>
+
+
+</LinearLayout>

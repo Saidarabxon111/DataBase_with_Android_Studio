@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DataBase with Android Studio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sotuvchi">Sotuvchi</string>
+    <string name="xaridor">xaridor</string>
+    <string name="Xaridor">Xaridor</string>
+</resources>

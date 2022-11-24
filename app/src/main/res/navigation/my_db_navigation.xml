@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_db_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="uz.databasewithandroidstudio.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_sotuvFragment"
+            app:destination="@id/sotuvFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_xarid_fragment"
+            app:destination="@id/xarid_fragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_buyurtmaFragment"
+            app:destination="@id/buyurtmaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sotuvFragment"
+        android:name="uz.databasewithandroidstudio.fragments.SotuvFragment"
+        android:label="fragment_sotuv"
+        tools:layout="@layout/fragment_sotuv" />
+    <fragment
+        android:id="@+id/xarid_fragment"
+        android:name="uz.databasewithandroidstudio.fragments.xarid_fragment"
+        android:label="fragment_xarid_fragment"
+        tools:layout="@layout/fragment_xarid_fragment" />
+    <fragment
+        android:id="@+id/buyurtmaFragment"
+        android:name="uz.databasewithandroidstudio.fragments.BuyurtmaFragment"
+        android:label="fragment_buyurtma"
+        tools:layout="@layout/fragment_buyurtma" />
+</navigation>
